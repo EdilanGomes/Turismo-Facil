@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo Fácil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid p-2 bg-warning text-center">
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Turismo Fácil</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end"  id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Pacotes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Taxas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contato
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-cart-fill"></i></a>
+                    
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+    </header>
+
+          <main class="container">
+            <div class="py-5 text-center">
+              <h2>Pagamento</h2>
+              <p class="lead">Olá! Bem-vindo à área de pagamento do nosso site. Aqui você pode concluir suas transações com segurança e facilidade. Se precisar de assistência, não hesite em entrar em contato conosco. Agradecemos pela sua preferência!</p>
+            </div>
+
+              <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Endereço de Pagamento</h4>
+                <form class="needs-validation" novalidate>
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <label for="firstName" class="form-label">Primeiro Nome</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Valid first name is required.
+                      </div>
+                    </div>
+        
+                    <div class="col-sm-6">
+                      <label for="lastName" class="form-label">Último Nome</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="username" class="form-label">Usuário</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text">@</span>
+                        <input type="text" class="form-control" id="username" placeholder="Username" required>
+                      <div class="invalid-feedback">
+                          Your username is required.
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+                      <input type="email" class="form-control" id="email" placeholder="">
+                      <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="address" class="form-label">Endereço</label>
+                      <input type="text" class="form-control" id="address" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Please enter your shipping address.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="address2" class="form-label">Segundo Endereço <span class="text-body-secondary">(Optional)</span></label>
+                      <input type="text" class="form-control" id="address2" placeholder="">
+                    </div>
+        
+                    <div class="col-md-5">
+                      <label for="country" class="form-label">País</label>
+                      <select class="form-select" id="country" required>
+                        <option value="">Selecionar</option>
+                        <option>Brasil</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid country.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-4">
+                      <label for="state" class="form-label">Estado</label>
+                      <select class="form-select" id="state" required>
+                        <option value="Acre">Acre</option>
+                        <option value="Alagoas">Alagoas</option>
+                        <option value="Amapá">Amapá</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Bahia">Bahia</option>
+                        <option value="Ceará">Ceará</option>
+                        <option value="Distrito Federal">Distrito Federal</option>
+                        <option value="Espírito Santo">Espírito Santo</option>
+                        <option value="Goiás">Goiás</option>
+                        <option value="Maranhão">Maranhão</option>
+                        <option value="Mato Grosso">Mato Grosso</option>
+                        <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                        <option value="Minas Gerais">Minas Gerais</option>
+                        <option value="Pará">Pará</option>
+                        <option value="Paraíba">Paraíba</option>
+                        <option value="Paraná">Paraná</option>
+                        <option value="Pernambuco">Pernambuco</option>
+                        <option value="Piauí">Piauí</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                        <option value="Rondônia">Rondônia</option>
+                        <option value="Roraima">Roraima</option>
+                        <option value="Santa Catarina">Santa Catarina</option>
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Sergipe">Sergipe</option>
+                        <option value="Tocantins">Tocantins</option>
+
+                      </select>
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="zip" class="form-label">Bairro</label>
+                      <input type="text" class="form-control" id="zip" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Zip code required.
+                      </div>
+                    </div>
+                  </div>
+        
+                  <hr class="my-4"
+        
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="save-info">
+                    <label class="form-check-label" for="save-info">Salve estas informações para as próximas vezes</label>
+                  </div>
+        
+                  <hr class="my-4">
+        
+                  <h4 class="mb-3">Pagamento</h4>
+        
+                  <div class="my-3">
+                    <div class="form-check">
+                      <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                      <label class="form-check-label" for="credit">Cartão de Credito</label>
+                    </div>
+                    <div class="form-check">
+                      <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                      <label class="form-check-label" for="debit">Cartão de Débito</label>
+                    </div>
+                  </div>
+        
+                  <div class="row gy-3">
+                    <div class="col-md-6">
+                      <label for="cc-name" class="form-label">Nome do Cartão</label>
+                      <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                      <small class="text-body-secondary">Nome completo do cartão    </small>
+                      <div class="invalid-feedback">
+                        Name on card is required
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="cc-number" class="form-label">Números do cartão</label>
+                      <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Credit card number is required
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="cc-expiration" class="form-label">Validade</label>
+                      <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Expiration date required
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="cc-cvv" class="form-label">CVV</label>
+                      <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Security code required
+                      </div>
+                    </div>
+                  </div>
+        
+                  <hr class="my-4">
+        
+                  <button class="w-100 btn btn-primary btn-lg" type="submit">Confirmar cartão</button>
+                </form>
+              </div>
+            </div>
+          </main>
+        
+
+          <footer class="container-fluid bg-warning text-center">
+            <h2> &copy; Feito por Edilan - 2024</h2>
+        </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    </body>
+    
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Suas Compras</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Produto adicionado ao carrinho!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continuar Comprando</button>
+              <button type="button" class="btn btn-success">Finalizar Compra</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </html>

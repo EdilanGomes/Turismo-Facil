@@ -1,0 +1,75 @@
+
+
+section, footer {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
+    
+
+.texto-no-centro {
+    text-align: center;
+}
+
+.comentario {
+    padding: 25px 80px;
+}
+
+.botao {
+    color: white;
+    background-color: #f4511e;
+    border: solid 1px black;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+    margin-bottom: 12px;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.botao:hover {
+    background-color: #f4511e;
+    color: black;
+    transition: 0.5s;   
+}
+
+fieldset label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.pagamento{
+
+    display: block;
+    margin-bottom: -50px;
+    margin-top: 10px;
+}
+
+.comentario-texto{
+
+    margin-top: 35px;
+}
+
+h5{
+
+    font-size: 55px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
